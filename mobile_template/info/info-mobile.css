@@ -1,0 +1,27 @@
+.info__title:not(:last-child) {
+	margin-bottom: 26px;
+}
+
+.info-block__image {
+	margin-bottom: 0 !important;
+	width: 72px;
+	height: 72px;
+}
+
+.info-block__text {
+	margin: 0;
+}
+
+.info-block__text {
+	width: 100%;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-left: 16px;
+	text-align: left !important;
+}
+.info-block {
+	margin-bottom: 16px;
+	flex-direction: row !important;
+}

@@ -1,0 +1,6 @@
+.reserved-block__line {
+	width: auto;
+}
+.col-12:not(:last-child) .reserved-block {
+	margin-bottom: 24px;
+}

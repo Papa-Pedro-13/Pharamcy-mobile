@@ -1,0 +1,30 @@
+.find-section__link {
+	border-radius: 8px;
+	color: var(--secondary-color) !important;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+	min-width: 32px;
+	padding: 4px 8px;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.find-section__title {
+	color: var(--b-1, #000);
+
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px; /* 133.333% */
+	letter-spacing: -0.36px;
+	margin-bottom: 16px;
+}
+.find-section__item:not(:first-child) {
+	margin-top: 12px;
+}
+.find-section__last:not(:first-child) {
+	margin-left: 24px;
+}

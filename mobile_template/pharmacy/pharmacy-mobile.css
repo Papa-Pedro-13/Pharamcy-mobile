@@ -1,0 +1,45 @@
+.pharmacy-slider .swiper-slide {
+	width: 156px !important;
+	height: 80px;
+}
+
+.pharmacy-block {
+	border: 1px solid var(--border-color);
+	border-radius: var(--default-radius);
+	display: block;
+	height: 78px;
+	max-width: 196px;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.has-hover .pharmacy-block:not([disabled]):hover {
+	border-color: transparent;
+	border-radius: var(--default-radius);
+	-webkit-box-shadow: var(--box-shadow);
+	box-shadow: var(--box-shadow);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.pharmacy-block__image {
+	display: block;
+	height: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
+	-o-object-position: center;
+	object-position: center;
+	text-align: center;
+	width: 100%;
+}
+.pharmacy-button .button {
+	padding: 14px 24px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 22px;
+}
